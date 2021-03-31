@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /styleguide/
+Disallow: /photos/
+Disallow: /blog/
+Disallow: /_template/
+Sitemap: https://www.downonthefarmgala.com/sitemap.xml

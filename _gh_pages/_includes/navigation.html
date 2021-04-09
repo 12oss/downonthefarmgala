@@ -1,14 +1,4 @@
-<div id="fb-root"></div>
-<script>
-(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s);
-	js.id = id;
-	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=106424289440213";
-	fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
+
 <style>
 .navbar-collapse {
 	padding-right: 0px;
@@ -16,7 +6,7 @@
 }
 
 #navbar-primary .navbar-nav {
-	background: #111;
+	/*background: #7f3342;*/
 	width: 100%;
 	text-align: center;
 }
@@ -60,7 +50,7 @@ img.logo-nav-mobile {
 		-moz-transform: translateX(-50%);
 		-ms-transform: translateX(-50%);
 		transform: translateX(-50%);
-		max-width: 100px;
+		max-width: 150px;
 		display: inline;
 	}
 }
@@ -70,9 +60,9 @@ img.logo-nav-mobile {
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<!-- LOGO-->
-			<!--<a href="{{ site.baseurl }}/">
-				<img class="logo-nav-mobile" src="{{ site.baseurl }}/assets/css/images/" width="200" alt="Down on the Farm Gala">
-			</a>-->
+			<a href="{{ site.baseurl }}/">
+				<img class="logo-nav-mobile" src="{{ site.baseurl }}/assets/css/images/logo-1.png" width="150" alt="Down on the Farm Gala">
+			</a>
 
 			<!-- end LOGO -->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
@@ -84,40 +74,35 @@ img.logo-nav-mobile {
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-primary-collapse">
 			<ul class="nav navbar-nav">
-				<!--
-				<li class="visible-xs">
-					<a href="{{ site.baseurl }}/">Link 1</a>
+				
+				<li>
+					<a href="{{ site.baseurl }}/">Donate to the Auction</a>
+				</li>
+				<!--<li>
+					<a href="{{ site.baseurl }}">About</a>
 				</li>
 				<li>
-					<a href="{{ site.baseurl }}">Link 2</a>
-				</li>
-				<li>
-					<a href="{{ site.baseurl }}">Link 3</a>
-				</li>
-			-->
+					<a href="{{ site.baseurl }}">Contact</a>
+				</li>-->
+			
 
 				<!-- LOGO-->
-				<!--<li class="hidden-xs">
+				<li class="hidden-xs">
 					<a href="{{ site.baseurl }}/">
-						<img class="hidden-xs" id="logo-navbar-middle" src="{{ site.baseurl }}/assets/css/images/" width="200" alt="Down on the Farm Gala">
+						<img class="hidden-xs" id="logo-navbar-middle" src="{{ site.baseurl }}/assets/css/images/logo-1.png" width="150" alt="Down on the Farm Gala">
 					</a>
-				</li>-->
+				</li>
 				<!-- end LOGO -->
+				<li>
+					<a href="{{ site.baseurl }}">Donate Money</a>
+				</li>
+				<li>
+					<a href="{{ site.baseurl }}">Sponsor</a>
+				</li>
 				<!--<li>
-					<a href="{{ site.baseurl }}/photos">Photos</a>
+					<a href="{{ site.baseurl }}">The Event</a>
 				</li>-->
-
-				<!--
-				<li>
-					<a href="{{ site.baseurl }}">Link 4</a>
-				</li>
-				<li>
-					<a href="{{ site.baseurl }}">Link 5</a>
-				</li>
-				<li>
-					<a href="{{ site.baseurl }}">Link 6</a>
-				</li>
-			-->
+			
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

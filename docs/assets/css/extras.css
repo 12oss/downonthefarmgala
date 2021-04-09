@@ -420,12 +420,11 @@ hr {
 }
 
 .dark-boxshadow {
-	-webkit-box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
-	-moz-box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
-	-ms-box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
-	box-shadow: inset 0px 0px 125px 165px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: inset 0px 0px 165px 285px rgba(0, 0, 0, .72);
+	-moz-box-shadow: inset 0px 0px 165px 285px rgba(0, 0, 0, .72);
+	-ms-box-shadow: inset 0px 0px 165px 285px rgba(0, 0, 0, .72);
+	box-shadow: inset 0px 0px 165px 285px rgba(0, 0, 0, .72);
 }
-
 .light-boxshadow {
 	-webkit-box-shadow: inset 0px 0px 105px 95px rgba(155, 155, 155, .5);
 	-moz-box-shadow: inset 0px 0px 105px 95px rgba(155, 155, 155, .5);
@@ -559,8 +558,8 @@ hr {
 }
 
 .btn-primary {
-	background-color: rgba(110, 150, 40, 1);
-	border: 1px solid rgba(110, 150, 40, 1);
+	background-color: #447042;
+	border: 1px solid #447042;
 	color: #fff;
 }
 
@@ -601,24 +600,25 @@ hr {
 }
 
 .btn-danger:hover {
-	background-color: rgba(200, 70, 70, 1);
+	background-color: #7f3342;
 	border: 1px solid rgba(250, 200, 210, 1);
 	color: #fff;
 }
 
 .btn-danger {
-	background-color: rgba(180, 40, 40, 1);
-	border: 1px solid rgba(180, 40, 40, 1);
+	background-color: #7f3342;
+	border: 1px solid #7f3342;
 	color: #fff;
 }
 
 .btn-link {
-	color: rgba(110, 150, 40, 1);
+	color: ##7f3342;
 	border: none;
+	font-weight: 600;
 }
 
 .btn-link:hover {
-	color: rgba(110, 150, 40, 1);
+	color: ##7f3342;
 	/*  border: rgba(190,190,190,1) 1px solid;*/
 }
 
@@ -738,7 +738,7 @@ h2.porto.title a:focus {
 }
 
 .porto .porto-item.bg-danger:hover {
-	background-color: rgba(200, 70, 70, 1);
+	background-color: #7f3342;
 }
 
 .porto .porto-item.bg-inverse {

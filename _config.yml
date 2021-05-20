@@ -34,11 +34,11 @@ author:
   twitter: 
 
 #Teaser Image
-#image: /assets/css/images/tadders.png
+image: /images/social-share.png
 
 
 #Logo
-#logo: /assets/css/images/tadders.png
+logo: /images/social-share.png
 
 #Pagination
 paginate: 10

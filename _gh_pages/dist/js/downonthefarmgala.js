@@ -5946,7 +5946,7 @@ function f1() {
 			/*Create an iFrame with autoplay set to true*/
 			var iframe = document.createElement("iframe");
 			iframe.setAttribute("src",
-				"https://www.youtube.com/embed/" + this.id + "?enablejsapi=1&autohide=1&border=0&wmode=opaque&autoplay=1&rel=0");
+				"https://www.youtube.com/embed/" + this.id + "?enablejsapi=1&autohide=1&border=0&wmode=opaque&autoplay=1&rel=0&hd=1&controls=0&fs=0&loop=1&modestbranding=1&&widget_referrer=secondcropcreative.com");
 			iframe.setAttribute("allow",
 				"autoplay");
 
